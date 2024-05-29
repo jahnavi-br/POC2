@@ -1,0 +1,13 @@
+name: 'Hello'
+
+on:
+  push:
+    branches: 
+      - 'master'
+  pull_request: 
+    branches: 
+      - 'master'
+  
+runs:
+  using: 'node12'
+  main: './Hello.js'
